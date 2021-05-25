@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tyler Quinlivan</title><link>https://tylerquinlivan.com/</link><description>Recent content on Tyler Quinlivan</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tylerquinlivan.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact Me</title><link>https://tylerquinlivan.com/contact/</link><pubDate>Mon, 24 May 2021 22:11:47 +1000</pubDate><guid>https://tylerquinlivan.com/contact/</guid><description>The best place to contact me is probably over email, but you can also shoot me a message over at LinkedIn, or browse my back catalogue of out-of-context tweets if you like.
-Email me: hello@tylerquinlivan.com LinkedIn: tylerquinlivan Twitter: tyleraquinlivan</description></item><item><title>About Me</title><link>https://tylerquinlivan.com/about/</link><pubDate>Mon, 24 May 2021 22:04:09 +1000</pubDate><guid>https://tylerquinlivan.com/about/</guid><description>Hi! My name&amp;rsquo;s Tyler, and I work in infosec in the Melbourne region.
-Specifically, my current work focus and experience is on:
-Detection - creating well-optimised SIEM rules to feed a bespoke risk-aggregation pipeline, and Orchestration - using SOAR to automate away as much of the boring stuff as we can, and Phishing - building an alerting and response framework to detect and, more importantly, take down phishing sites as soon as possible.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tyler Quinlivan</title>
+    <link>https://tylerquinlivan.com/</link>
+    <description>Recent content on Tyler Quinlivan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://tylerquinlivan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact Me</title>
+      <link>https://tylerquinlivan.com/contact/</link>
+      <pubDate>Mon, 24 May 2021 22:11:47 +1000</pubDate>
+      
+      <guid>https://tylerquinlivan.com/contact/</guid>
+      <description>The best place to contact me is probably over email, but you can also shoot me a message over at LinkedIn, or browse my back catalogue of out-of-context tweets if you like.
+ Email me: hello@tylerquinlivan.com LinkedIn: tylerquinlivan Twitter: tyleraquinlivan  </description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://tylerquinlivan.com/about/</link>
+      <pubDate>Mon, 24 May 2021 22:04:09 +1000</pubDate>
+      
+      <guid>https://tylerquinlivan.com/about/</guid>
+      <description>Hi! My name&amp;rsquo;s Tyler, and I work in infosec in the Melbourne region.
+ Specifically, my current work focus and experience is on:
+ Detection - creating well-optimised SIEM rules to feed a bespoke risk-aggregation pipeline, and Orchestration - using SOAR to automate away as much of the boring stuff as we can, and Phishing - building an alerting and response framework to detect and, more importantly, take down phishing sites as soon as possible.</description>
+    </item>
+    
+  </channel>
+</rss>
