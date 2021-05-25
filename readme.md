@@ -1,4 +1,4 @@
-h2. Static Sites with Hugo
+# Static Sites with Hugo
 
 This repo holds the build files for [www.tylerquinlivan.com](https://www.tylerquinlivan.com).
 
