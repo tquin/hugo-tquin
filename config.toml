@@ -12,9 +12,16 @@ sectionPagesMenu = "main"
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated zoomIn fast" 
 
+  # Reference any custom CSS I make in the layouts/partials/header.html file
+  custom_css = ["till_style.css"]
+
   [[params.navlinks]]
-  name = "~/posts/"
+  name = "/posts/"
   url = "posts/"
+
+  [[params.navlinks]]
+  name = "/arnotts_biscuits/"
+  url = "arnotts/"
 
   [[params.navlinks]]
   name = "~/.about/"

@@ -1,0 +1,8 @@
+blockquote::after {
+  content: "";
+}
+
+blockquote {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 20px;
+  }
