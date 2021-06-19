@@ -1,5 +1,5 @@
 ---
-title: "Definitively Ranking Arnott's Biscuits"
+title: "Definitively Ranking Every Arnott's Biscuit"
 date: 2021-06-14T13:14:31+10:00
 draft: false
 ---
@@ -12,9 +12,9 @@ I love it for a number of reasons.
 
 1. First of all, just about every Australian is familiar with the premise. Whether it's a family get-together, lunchbox snack, or just movie food, Arnott's is one of those brands that has so effectively permeated into the national conscience.
 
-2. Second, it's easy to find diverse opinions. Some people love the cream-filled [Monte Carlo][link-monte-carlo], but dislike the crumbly [Scotch Finger][link-scotch-finger]. Maybe to you, Arnott's means [Shapes][link-shapes] or [Tim Tams][link-tim-tams], which both have their own fierce debates for the best in each product family.
+2. Second, it's easy to find diverse opinions. Some people love the cream-filled [Monte Carlo][link-monte-carlo], but dislike the crumbly [Scotch Finger][link-scotch-finger]. Maybe to you, Arnott's means [Shapes][link-shapes] or [Tim Tams][link-tim-tams], which both have their own fierce debates for the best within each product family.
 
-3. And last, it ultimately doesn't matter. While that does make the time I've invested into this post seem a little concerning, I do view it as a selling point. Seeing people get passionte arguing about why Chicken Crimpy is better than Cheddar (obviously), or why [Delta Creams][link-delta-creams] are overrated, is just plain fun.
+3. And last, it ultimately doesn't matter. While that does make me seem insane to invest so much time into this, I choose to ignore that point. Seeing people get passionte arguing about why Chicken Crimpy is better than Cheddar (obviously), or why [Delta Creams][link-delta-creams] are overrated, is just plain fun.
 
 ---
 
@@ -28,7 +28,7 @@ You can find all of my Arnott's reviews [here](/arnotts/), and I do hope you'll 
 
 
 
-[link-monte-carlo]: https://www.arnotts.com/products/fancy-and-cream-biscuits/cream-biscuits/monte-carlo
+[link-monte-carlo]: /arnotts/monte_carlo/
 [link-scotch-finger]: https://www.arnotts.com/products/plain-biscuits/scotch-finger/scotch-finger-original
 [link-tim-tams]: https://www.arnotts.com/products/tim-tam
 [link-shapes]: https://www.arnotts.com/products/shapes/original/pizza-original

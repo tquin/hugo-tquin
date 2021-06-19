@@ -6,10 +6,11 @@ draft: false
 
 Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked (so far):
 
-1. [Custard Cream](/arnotts/custard_cream)
+1. [Monte Carlo](/arnotts/monte_carlo)
+2. [Custard Cream](/arnotts/custard_cream)
 
 ---
 
-Alternatively, you can see some of the recent reviews here:
+Alternatively, you can see the most recent reviews here:
 
 <!-- Hugo seems to include a post summary list here by default -->
