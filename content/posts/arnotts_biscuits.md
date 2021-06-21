@@ -2,6 +2,9 @@
 title: "Definitively Ranking Every Arnott's Biscuit"
 date: 2021-06-14T13:14:31+10:00
 draft: false
+tags:
+  - arnotts
+  - review
 ---
 
 One of my favourite questions to ask to get to know new people is: _"What's your favourite Arnott's biscuit?"_
