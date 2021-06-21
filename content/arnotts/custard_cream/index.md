@@ -2,6 +2,11 @@
 title: "Custard Cream"
 date: 2021-06-14T15:32:04+10:00
 draft: false
+tags:
+  - arnotts
+  - review
+  - custard cream
+  - fountain pen
 ---
 
 Every time I pick these up, I'm always thrown off by the length of the packaging. It's hard to convey it exactly, but the dimensions just feel\... _off._ 

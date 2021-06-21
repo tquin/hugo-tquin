@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tyler Quinlivan</title>
-    <link>https://www.tylerquinlivan.com/</link>
-    <description>Recent content on Tyler Quinlivan</description>
+    <title>arnotts on Tyler Quinlivan</title>
+    <link>https://www.tylerquinlivan.com/tags/arnotts/</link>
+    <description>Recent content in arnotts on Tyler Quinlivan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 22:25:00 +1000</lastBuildDate><atom:link href="https://www.tylerquinlivan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 22:25:00 +1000</lastBuildDate><atom:link href="https://www.tylerquinlivan.com/tags/arnotts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iced VoVo, Lamington</title>
       <link>https://www.tylerquinlivan.com/arnotts/iced_vovo_lamington/</link>
@@ -35,6 +35,16 @@
     </item>
     
     <item>
+      <title>Arnott&#39;s Biscuits - The Definitive Ranking</title>
+      <link>https://www.tylerquinlivan.com/arnotts/</link>
+      <pubDate>Mon, 14 Jun 2021 15:26:36 +1000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/arnotts/</guid>
+      <description>Without further ado, I present the 100% correct, objective, inarguable list of Arnott&amp;rsquo;s biscuits, ranked (so far):
+ Monte Carlo Custard Cream Iced VoVo, Lamington   Alternatively, you can see the most recent reviews here:</description>
+    </item>
+    
+    <item>
       <title>Definitively Ranking Every Arnott&#39;s Biscuit</title>
       <link>https://www.tylerquinlivan.com/posts/arnotts_biscuits/</link>
       <pubDate>Mon, 14 Jun 2021 13:14:31 +1000</pubDate>
@@ -42,27 +52,6 @@
       <guid>https://www.tylerquinlivan.com/posts/arnotts_biscuits/</guid>
       <description>&lt;p&gt;One of my favourite questions to ask to get to know new people is: &lt;em&gt;&amp;ldquo;What&amp;rsquo;s your favourite Arnott&amp;rsquo;s biscuit?&amp;quot;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I love it for a number of reasons.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Contact Me</title>
-      <link>https://www.tylerquinlivan.com/contact/</link>
-      <pubDate>Mon, 24 May 2021 22:11:47 +1000</pubDate>
-      
-      <guid>https://www.tylerquinlivan.com/contact/</guid>
-      <description>The best place to contact me is probably over email, but you can also shoot me a message over at LinkedIn, or browse my back catalogue of out-of-context tweets if you like.
- Email me: hello@tylerquinlivan.com LinkedIn: tylerquinlivan Twitter: tyleraquinlivan  </description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://www.tylerquinlivan.com/about/</link>
-      <pubDate>Mon, 24 May 2021 22:04:09 +1000</pubDate>
-      
-      <guid>https://www.tylerquinlivan.com/about/</guid>
-      <description>Hi! My name&amp;rsquo;s Tyler, and I work in infosec in the Melbourne region.
- Specifically, my current work focus and experience is on:
- Detection - creating well-optimised SIEM rules to feed a bespoke risk-aggregation pipeline, and Orchestration - using SOAR to automate away as much of the boring stuff as we can, and Phishing - building an alerting and response framework to detect and, more importantly, take down phishing sites as soon as possible.</description>
     </item>
     
   </channel>

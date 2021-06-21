@@ -2,6 +2,12 @@
 title: "Monte Carlo"
 date: 2021-06-17T22:08:24+10:00
 draft: false
+tags:
+  - arnotts
+  - review
+  - monte carlo
+  - john green
+  - anthropocene
 ---
 
 If I had to guess, I would assume the Monte Carlo must be the most popular biscuit Arnott's produces. Not to be the [Provocative Opinion Person][link-anthropocene], but I do have to disagree (surely it's the Tim Tams.)
@@ -10,7 +16,7 @@ If I had to guess, I would assume the Monte Carlo must be the most popular biscu
 
 ![img_monte_carlo](/arnotts/monte_carlo/monte_carlo.png)
 
-Not by much, though. Look, I don't think anyone can really argue that this isn't an _excellent_ biscuit. It's just not my personal number one.
+Not by much, though. Look, I don't think anyone can really argue that this isn't an _excellent_ biscuit. It's just not my personal number one (you'll have to wait and see!)
 
 And what's not to love? It's a big, thick, crunchy, flavourful, textured banger of a bickie. Cracking open the quintessential jam film to reach that weirdly smooth cream; what else can I say but _\*chef's kiss\*_ 👨‍🍳😘.
 
