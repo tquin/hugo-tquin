@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Tyler Quinlivan</title>
+    <link>https://www.tylerquinlivan.com/tags/security/</link>
+    <description>Recent content in security on Tyler Quinlivan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 22:08:00 +1000</lastBuildDate>
+    
+	<atom:link href="https://www.tylerquinlivan.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring Splunk&#39;s v8 New PREFIX</title>
+      <link>https://www.tylerquinlivan.com/posts/exploring_splunk_prefix/</link>
+      <pubDate>Fri, 25 Jun 2021 22:08:00 +1000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/posts/exploring_splunk_prefix/</guid>
+      <description>&lt;p&gt;Starting with Splunk 8, the powerful new PREFIX ability has been added, which is a game-changer for speeding up your searches.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
