@@ -10,10 +10,14 @@ sectionPagesMenu = "main"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast" 
+  animateStyle = "animated pulse fast"
 
   # Reference any custom CSS I make in the layouts/partials/header.html file
-  custom_css = ["till_style.css"]
+  custom_css = ["quote_style.css", "code_style.css"]
+
+  #[[params.navlinks]]
+  #name = "/posts/"
+  #url = "posts/"
 
   [[params.navlinks]]
   name = "/posts/"
@@ -24,9 +28,9 @@ sectionPagesMenu = "main"
   url = "arnotts/"
 
   [[params.navlinks]]
-  name = "~/.about/"
+  name = "~/.about"
   url = "about/"
 
   [[params.navlinks]]
-  name = "~/.contact/"
+  name = "~/.contact"
   url = "contact/"
