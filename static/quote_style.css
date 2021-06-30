@@ -1,7 +1,9 @@
+/* Remove '>' default quote broder */
 blockquote::after {
   content: "";
 }
 
+/* Add custom 'blue line' quote border */
 blockquote {
     border-left: 3px solid var(--primary-color);
     padding-left: 20px;

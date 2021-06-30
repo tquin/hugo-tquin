@@ -16,4 +16,4 @@ Specifically, my current work focus and experience is on:
 
 ---
 
-Outside of work, we do all have hobbies of course - some of mine are beekeeping, colour-coding my bookshelf, and a financially unsustainable collection of fountain pens.
+Outside of work, we do all have hobbies of course - some of mine are beekeeping, reviewing every Arnott's biscuit ever, and a financially unsustainable collection of fountain pens.
