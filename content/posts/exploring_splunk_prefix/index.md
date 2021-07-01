@@ -3,9 +3,12 @@ title: "Exploring Splunk's v8 New PREFIX"
 date: 2021-06-25T22:08:00+10:00
 draft: false
 tags:
-  - cyber
-  - info sec
-  - security
+  - splunk
+  - term
+  - prefix
+  - tstats
+  - bloomfilter
+  - bucket
 ---
 
 Starting with Splunk 8, the powerful new PREFIX ability has been added, which is a game-changer for speeding up your searches.
@@ -101,6 +104,7 @@ Unfortunately, there's still a few scenarios where PREFIX can't be used. It requ
 
 * `field: value` -> the major separator here (space) means these terms are indexed separately.
 * `"field":"value"` -> the quote marks are major separators, also meaning PREFIX can't be used.
+* `field=value|value` -> `%20` is a major breaker, so using `PREFIX(field=)` would only give you `value`
 
 While this does exlude JSON data and a few others, a lot of common formats like CEF and Splunk's built-in `collect`'s `raw` option for summary indexes work perfectly.
 

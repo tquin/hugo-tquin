@@ -8,6 +8,7 @@ tags:
   - iced vovo
   - lamington
   - creamy chocolate
+  - special
 ---
 
 If you asked me for the most iconic Australian recipies, along with pavlova and vegemite, the [lamington][link-lamington] would definitely make the cut.
