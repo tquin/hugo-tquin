@@ -8,10 +8,11 @@ tags:
 
 Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked (so far):
 
-1. [Monte Carlo](/arnotts/monte_carlo)
-2. [Custard Cream](/arnotts/custard_cream)
-3. [Tic Toc](/arnotts/tic_toc)
-4. [Iced VoVo, Lamington](/arnotts/iced_vovo_lamington)
+1. [Monte Carlo, Black Forest](/arnotts/monte_carlo_black_forest)
+2. [Monte Carlo](/arnotts/monte_carlo)
+3. [Custard Cream](/arnotts/custard_cream)
+4. [Tic Toc](/arnotts/tic_toc)
+5. [Iced VoVo, Lamington](/arnotts/iced_vovo_lamington)
 
 ---
 

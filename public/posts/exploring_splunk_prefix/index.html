@@ -117,6 +117,7 @@ Jun. 25, 2021
 <ul>
 <li><code>field: value</code> -&gt; the major separator here (space) means these terms are indexed separately.</li>
 <li><code>&quot;field&quot;:&quot;value&quot;</code> -&gt; the quote marks are major separators, also meaning PREFIX can&rsquo;t be used.</li>
+<li><code>field=value|value</code> -&gt; <code>%20</code> is a major breaker, so using <code>PREFIX(field=)</code> would only give you <code>value</code></li>
 </ul>
 <p>While this does exlude JSON data and a few others, a lot of common formats like CEF and Splunk&rsquo;s built-in <code>collect</code>'s <code>raw</code> option for summary indexes work perfectly.</p>
 <hr>
