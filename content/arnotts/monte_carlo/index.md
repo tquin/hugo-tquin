@@ -10,7 +10,7 @@ tags:
   - anthropocene
 ---
 
-If I had to guess, I would assume the Monte Carlo must be the most popular biscuit Arnott's produces. Not to be the [Provocative Opinion Person][link-anthropocene], but I do have to disagree (surely it's the Tim Tams.)
+Arnott's claims this is possibly their most iconic biscuit. Not to be the [Provocative Opinion Person][link-anthropocene], but I do have to disagree (surely it's the Tim Tams.)
 
 <!--more-->
 

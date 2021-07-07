@@ -27,7 +27,7 @@ While the journal file is fairly easy to contextualise - it's the raw events you
 
 Splunk creates the tsidx file to hugely increase search performance. It's an index of every unique term (ie. words separated by [segmenters][link-splunk-segmenter]) found in the journal file, with a pointer to the location(s) of the events where that term is found in the journal.
 
-> ![img_wheres_waldo](/posts/exploring_splunk_prefix/how_search_works_wheres_waldo.png)
+> {{< figure src="/posts/exploring_splunk_prefix/how_search_works_wheres_waldo.png" class="smaller_img" alt="img_wheres_waldo" >}}
 >
 > _The excellent [Behind the Magnifying Glass][link-magnifying-glass] .conf2016 presentation by Jeff Champagne_
 
@@ -39,7 +39,7 @@ There are a few other details in the tsidx file that are important, including sp
 
 Since that tsidx file contains every unique term in the entire bucket, it's super useful to find a unique event quickly. For an example, I've loaded the [Splunk tutorial dataset][link-splunk-tutorial-data], which contains about 100,000 events. We can see that a lot of these have some fields in common, like VendorID, Code, and AcctID.
 
-![eimg_vent_count](/posts/exploring_splunk_prefix/event_count.png)
+![img_vent_count](/posts/exploring_splunk_prefix/event_count.png)
 
 Conventionally, if we wanted to look for a specific vendor, like `index="test_data" VendorID="1043"`, Splunk would start by looking for all events with '1043' in them, before unzipping the journal files and performing field extractions to check against the VendorID field specifically. 
 
@@ -63,7 +63,7 @@ What if we had a fairly simple use case, like counting the number of events in a
 
 In fact, this is the same concept behind [datamodels][link-splunk-datamodel], which allow you to compute large summaries with a defined set of fields, like `url` and `user` that you can use for faster searches later. 
 
-> ![img_storing_indexed_fields_in_tsidx](/posts/exploring_splunk_prefix/storing_indexed_fields_in_tsidx.png)
+> {{< figure src="/posts/exploring_splunk_prefix/storing_indexed_fields_in_tsidx.png" class="smaller_img" alt="img_storing_indexed_fields_in_tsidx" >}}
 >
 > _Again from the [Behind the Magnifying Glass][link-magnifying-glass] .conf2016 presentation by Jeff Champagne_
 
@@ -104,7 +104,7 @@ Unfortunately, there's still a few scenarios where PREFIX can't be used. It requ
 
 * `field: value` -> the major separator here (space) means these terms are indexed separately.
 * `"field":"value"` -> the quote marks are major separators, also meaning PREFIX can't be used.
-* `field=value|value` -> `%20` is a major breaker, so using `PREFIX(field=)` would only give you `value`
+* `field=value1|value2` -> `|` is a major breaker, so using `PREFIX(field=)` would only give you `value1`
 
 While this does exlude JSON data and a few others, a lot of common formats like CEF and Splunk's built-in `collect`'s `raw` option for summary indexes work perfectly.
 

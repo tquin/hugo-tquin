@@ -13,7 +13,7 @@ sectionPagesMenu = "main"
   animateStyle = "animated pulse fast"
 
   # Reference any custom CSS I make in the layouts/partials/header.html file
-  custom_css = ["quote_style.css", "code_style.css"]
+  custom_css = ["till_custom_style.css"]
 
   #[[params.navlinks]]
   #name = "/posts/"
