@@ -1,0 +1,32 @@
+/* QUOTE */
+
+/* Remove '>' default quote broder */
+blockquote::after {
+  content: "";
+}
+
+/* Add custom 'blue line' quote border */
+blockquote {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 20px;
+  }
+
+/* CODE */
+
+/* Add background to `code` blocks */
+:root{  
+    --code-bg-color:#cecaca;
+}
+
+/* Remove '`' default code wrap */
+code::after, code::before{ 
+    content:"";
+}
+
+/* IMG */
+
+.smaller_img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
