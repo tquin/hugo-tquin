@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Tyler Quinlivan"
 theme = "hugo-theme-console"
 sectionPagesMenu = "main"
+googleAnalytics = "G-ND1DBED3GK"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -10,7 +11,7 @@ sectionPagesMenu = "main"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated pulse fast"
+  animateStyle = "animated fadeIn fast"
 
   # Reference any custom CSS I make in the layouts/partials/header.html file
   custom_css = ["till_custom_style.css"]

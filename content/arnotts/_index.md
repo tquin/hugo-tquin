@@ -14,8 +14,8 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Custard Cream](/arnotts/custard_cream)
 1. [TeeVee Snacks, Krispy Kreme Original Glazed](/arnotts/tee_vee_original_glazed)
 1. [Tic Toc](/arnotts/tic_toc)
+1. [Delta Cream](/arnotts/delta_cream)
 1. [Iced VoVo, Lamington](/arnotts/iced_vovo_lamington)
-
 
 ---
 
