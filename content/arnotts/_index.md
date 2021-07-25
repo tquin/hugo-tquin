@@ -8,6 +8,7 @@ tags:
 
 Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked (so far):
 
+1. [Raspberry Shortcake](/arnotts/raspberry_shortcake)
 1. [Monte Carlo, Black Forest](/arnotts/monte_carlo_black_forest)
 1. [Monte Carlo](/arnotts/monte_carlo)
 1. [Nice](/arnotts/nice)
