@@ -6,6 +6,7 @@ tags:
   - arnotts
   - review
   - mint slice
+  - oreos
 ---
 
 I cannot resist scraping the cream off each biscuit in a bizarre deconstruction compulsion.
