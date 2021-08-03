@@ -4,12 +4,11 @@
 blockquote::after {
   content: "";
 }
-
 /* Add custom 'blue line' quote border */
 blockquote {
     border-left: 3px solid var(--primary-color);
     padding-left: 20px;
-  }
+}
 
 /* CODE */
 
@@ -17,7 +16,6 @@ blockquote {
 :root{  
     --code-bg-color:#cecaca;
 }
-
 /* Remove '`' default code wrap */
 code::after, code::before{ 
     content:"";
@@ -29,4 +27,11 @@ code::after, code::before{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* A HREF */
+
+a {
+    text-decoration: underline;
+    color: hotpink;
 }
