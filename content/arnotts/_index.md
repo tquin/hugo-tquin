@@ -6,13 +6,14 @@ tags:
   - arnotts
 ---
 
-Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked (so far):
+Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked so far:
 
 1. [Raspberry Shortcake](/arnotts/raspberry_shortcake)
 1. [Monte Carlo, Black Forest](/arnotts/monte_carlo_black_forest)
 1. [Monte Carlo](/arnotts/monte_carlo)
 1. [Mint Slice](/arnotts/mint_slice)
 1. [Nice](/arnotts/nice)
+1. [Royals, Milk Chocolate](/arnotts/royals_milk)
 1. [Custard Cream](/arnotts/custard_cream)
 1. [Tic Toc](/arnotts/tic_toc)
 1. [TeeVee Snacks, Krispy Kreme Original Glazed](/arnotts/tee_vee_original_glazed)
