@@ -1,4 +1,7 @@
-/* QUOTE */
+/* 
+QUOTE
+--------------------------------------------------------------------------------
+*/
 
 /* Remove '>' default quote broder */
 blockquote::after {
@@ -10,7 +13,10 @@ blockquote {
     padding-left: 20px;
 }
 
-/* CODE */
+/* 
+CODE
+--------------------------------------------------------------------------------
+*/
 
 /* Add background to `code` blocks */
 :root{  
@@ -21,7 +27,10 @@ code::after, code::before{
     content:"";
 }
 
-/* IMG */
+/* 
+IMG
+--------------------------------------------------------------------------------
+*/
 
 .smaller_img {
   width: 50%;
@@ -29,9 +38,3 @@ code::after, code::before{
   margin-right: auto;
 }
 
-/* A HREF */
-
-a {
-    text-decoration: underline;
-    color: hotpink;
-}
