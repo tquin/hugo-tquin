@@ -12,6 +12,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Monte Carlo, Black Forest](/arnotts/monte_carlo_black_forest)
 1. [Monte Carlo](/arnotts/monte_carlo)
 1. [Mint Slice](/arnotts/mint_slice)
+1. [TeeVee Snacks, Krispy Kreme Caramel Delight](/arnotts/tee_vee_caramel_delight)
 1. [Nice](/arnotts/nice)
 1. [Royals, Milk Chocolate](/arnotts/royals_milk)
 1. [Custard Cream](/arnotts/custard_cream)
