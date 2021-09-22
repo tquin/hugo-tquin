@@ -26,6 +26,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Delta Cream](/arnotts/delta_cream)
 1. [TeeVee Snacks, Krispy Kreme Strawberry Sprinkle](/arnotts/tee_vee_strawberry_sprinkle)
 1. [Iced VoVo, Lamington](/arnotts/iced_vovo_lamington)
+1. [Orange Slice](/arnotts/orange_slice)
 
 ---
 
