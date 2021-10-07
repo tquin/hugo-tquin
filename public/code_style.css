@@ -1,9 +1,0 @@
-/* Add background to `code` blocks */
-:root{  
-    --code-bg-color:#cecaca;
-}
-
-/* Remove '`' default code wrap */
-code::after, code::before{ 
-    content:"";
-}
