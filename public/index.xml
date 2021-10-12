@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Kingston</title>
+      <link>https://www.tylerquinlivan.com/arnotts/kingston/</link>
+      <pubDate>Tue, 12 Oct 2021 20:41:00 +1000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/arnotts/kingston/</guid>
+      <description>&lt;p&gt;I have wandered the desert for a long time, from Tee Vee Snack to citrus abomination; it is time to come home.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I Build This Site: Working with Hugo on WSL</title>
+      <link>https://www.tylerquinlivan.com/posts/hugo_on_wsl/</link>
+      <pubDate>Thu, 07 Oct 2021 18:07:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/posts/hugo_on_wsl/</guid>
+      <description>&lt;p&gt;I build the test environment for this site on WSL - which comes with it&amp;rsquo;s own &lt;a href=&#34;https://www.youtube.com/c/DougDeMuro&#34;&gt;quirks and features&lt;/a&gt; working with Hugo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>TeeVee Snacks, Krispy Kreme Kookies &amp; Kreme</title>
       <link>https://www.tylerquinlivan.com/arnotts/tee_vee_kookies_kreme/</link>
       <pubDate>Wed, 06 Oct 2021 22:00:00 +0000</pubDate>
