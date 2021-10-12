@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Tyler Quinlivan</title>
+    <link>https://www.tylerquinlivan.com/tags/hugo/</link>
+    <description>Recent content in hugo on Tyler Quinlivan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 18:07:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tylerquinlivan.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Build This Site: Working with Hugo on WSL</title>
+      <link>https://www.tylerquinlivan.com/posts/hugo_on_wsl/</link>
+      <pubDate>Thu, 07 Oct 2021 18:07:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/posts/hugo_on_wsl/</guid>
+      <description>&lt;p&gt;I build the test environment for this site on WSL - which comes with it&amp;rsquo;s own &lt;a href=&#34;https://www.youtube.com/c/DougDeMuro&#34;&gt;quirks and features&lt;/a&gt; working with Hugo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

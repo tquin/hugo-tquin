@@ -10,6 +10,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 
 1. [Raspberry Shortcake](/arnotts/raspberry_shortcake)
 1. [Iced VoVo](/arnotts/iced_vovo)
+1. [Kingston](/arnotts/kingston)
 1. [Monte Carlo, Black Forest](/arnotts/monte_carlo_black_forest)
 1. [Monte Carlo](/arnotts/monte_carlo)
 1. [Mint Slice](/arnotts/mint_slice)
@@ -29,8 +30,6 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [TeeVee Snacks, Krispy Kreme Strawberry Sprinkle](/arnotts/tee_vee_strawberry_sprinkle)
 1. [Iced VoVo, Lamington](/arnotts/iced_vovo_lamington)
 1. [Orange Slice](/arnotts/orange_slice)
-
-
 
 ---
 

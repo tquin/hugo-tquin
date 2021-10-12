@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tyler Quinlivan/posts/hugo_on_wsl/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://www.tylerquinlivan.com/hugo-theme-console/css/terminal-0.7.1.min.css">
+    <link rel="stylesheet" href="https://www.tylerquinlivan.com/hugo-theme-console/css/animate-3.7.2.min.css">
+    <link rel="stylesheet" href="https://www.tylerquinlivan.com/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="How I Build This Site: Working with Hugo on WSL" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.tylerquinlivan.com/posts/hugo_on_wsl/" /><meta property="article:published_time" content="2021-10-07T18:07:00+00:00" />
+
+
+
+<meta name="twitter:title" content="How I Build This Site: Working with Hugo on WSL"/>
+<meta name="twitter:description" content="I build the test environment for this site on WSL - which comes with it&rsquo;s own quirks and features working with Hugo."/>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-ND1DBED3GK', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<link rel="stylesheet" href="https://www.tylerquinlivan.com/till_custom_style.css">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-ND1DBED3GK', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://www.tylerquinlivan.com/" class="no-style site-name">Tyler Quinlivan</a>:~# 
+              <a href='https://www.tylerquinlivan.com/posts'>posts</a>/<a href='https://www.tylerquinlivan.com/posts/hugo_on_wsl'>hugo_on_wsl</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://www.tylerquinlivan.com/posts/" typeof="ListItem">/posts/</a></li>
+                
+                <li><a href="https://www.tylerquinlivan.com/arnotts/" typeof="ListItem">/arnotts_biscuits/</a></li>
+                
+                <li><a href="https://www.tylerquinlivan.com/about/" typeof="ListItem">~/.about</a></li>
+                
+                <li><a href="https://www.tylerquinlivan.com/contact/" typeof="ListItem">~/.contact</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated fadeIn fast" >
+        
+<h1>How I Build This Site: Working with Hugo on WSL</h1>
+
+Oct. 7, 2021
+
+
+<br/><br/>
+<p>I build the test environment for this site on WSL - which comes with it&rsquo;s own <a href="https://www.youtube.com/c/DougDeMuro">quirks and features</a> working with Hugo.</p>
+<hr>
+<h2 id="wait-whats-hugo">Wait, what&rsquo;s Hugo?</h2>
+<p><a href="https://gohugo.io/">Hugo</a> is a <em>static content blogging engine</em> - buzzwords aside, it&rsquo;s just a fun little program that lets you write simple Markdown files and renders them out into a fancy website like this one! It supports a bunch of community-made themes, easy integrations with things like images, tweets, Github Gists - you get the idea. You just write your files in a <a href="https://gohugo.io/content-management/page-resources/">folder structure</a>, run <code>hugo</code>, ???, profit. Dead simple, and the static HTML approach makes things <strong>fast.</strong></p>
+<p>For example, here&rsquo;s what the first few lines of my <a href="https://www.tylerquinlivan.com/posts/exploring_splunk_prefix/">Splunk tstats and PREFIX</a> post looks like:</p>
+<figure class="smaller_img">
+    <img src="/posts/hugo_on_wsl/markdown.png"
+         alt="img_markdown"/> 
+</figure>
+
+<p>Pretty simple, right? To publish, I just push these files up to <a href="https://github.com/tquin/hugo-tquin">Github</a>, and Netlify picks them up and hosts them for free.</p>
+<p>When you&rsquo;re writing a new post, though, before you publish it to the world, you can run it in a local webserver to see what it looks like. And there&rsquo;s the catch - for me, using WSL (Windows Subsystem for Linux), I couldn&rsquo;t get this test site to work.</p>
+<hr>
+<h3 id="the-issue-with-wsl">The issue with WSL</h3>
+<p>Since the Linux box running in WSL is completely independent of your Windows install, it has it&rsquo;s own local IP. That means that going to the default Hugo server URL of <code>http://localhost:1313</code> in my Windows browser wouldn&rsquo;t be able to reach it - it would look for that webserver on the Windows machine, not in the WSL environment.</p>
+<p>The solution to this is a pretty simple bash function that uses Hugo&rsquo;s <code>bind</code> CLI parameter. And, well, here it is:</p>
+<script type="application/javascript" src="https://gist.github.com/tquin/98eaa40004df298a5ee5a26e8f5cb300.js"></script>
+
+<p>This is just finding your WSL environment&rsquo;s LAN IP <em>(it&rsquo;s likely to change with every reboot)</em> and tells Hugo to open the dev webserver up there, instead of the default <code>127.0.0.1</code>. The other options here are pretty minor - show draft or future posts, clean up the cache, blah blah blah.</p>
+<p>So that&rsquo;s it! Running <code>hugo_server</code> in WSL will give you a nice clicky button to the right URL to access the test site.</p>
+<figure class="smaller_img">
+    <img src="/posts/hugo_on_wsl/hugo_server.png"
+         alt="img_markdown"/> 
+</figure>
+
+<p>Adding another alias to <code>cd</code> into the right directory makes my build process as simple as <code>hugo_tquin</code> -&gt; <code>hugo_server</code>, and I&rsquo;m good to go!</p>
+<p>Hopefully, this helped you if you were madly googling for a solution. My thanks to <a href="https://www.saotn.org/hugo-development-environment-in-wsl-2/">Jan Reilink</a> for the initial inspiration.</p>
+
+
+        <div class="footer">
+    Powered by <a href="https://gohugo.io/">Hugo</a> with
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+</div>
+
+    </div>
+  </body>
+</html>
