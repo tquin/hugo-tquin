@@ -13,7 +13,7 @@ googleAnalytics = "G-ND1DBED3GK"
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated fadeIn fast"
 
-  # Reference any custom CSS I make in the layouts/partials/header.html file
+  # Reference any custom CSS I make in the static/ dir
   custom_css = ["till_custom_style.css"]
 
   #[[params.navlinks]]
