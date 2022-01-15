@@ -18,11 +18,21 @@ blockquote {
 
 /* Add background to `code` blocks */
 :root{  
-    --code-bg-color:#cecaca;
+    --code-bg-color:#eeeeee;
 }
+
 /* Remove '`' default code wrap */
 code::after, code::before{ 
     content:"";
+}
+
+pre code {
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+pre {
+    border: none;
 }
 
 /* IMG
@@ -42,3 +52,17 @@ code::after, code::before{
 a {
     text-decoration: underline;
 }
+
+/* FIG ICONS
+--------------------------------------------------------------------------------
+*/
+
+figure.icon_fig {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+

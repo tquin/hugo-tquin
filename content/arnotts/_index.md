@@ -20,6 +20,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Royals, Milk Chocolate](/arnotts/royals_milk)
 1. [Custard Cream](/arnotts/custard_cream)
 1. [Nice](/arnotts/nice)
+1. [Chocolate Teddy Bear](/arnotts/choc_teddy_bear)
 1. [Butternut Snap Cookie](/arnotts/butternut_snap_cookie)
 1. [Venetian](/arnotts/venetian)
 1. [TeeVee Snacks, Krispy Kreme Original Glazed](/arnotts/tee_vee_original_glazed)
