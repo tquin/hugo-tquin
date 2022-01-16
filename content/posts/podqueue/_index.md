@@ -16,7 +16,7 @@ tags:
 
 Have you ever wanted to go back to listen to a great old episode, and it's disappeared from the internet? Some podcasts only keep a [few recent episodes][link_amt] in their feeds, or maybe the creator abandoned their project and [no one paid for the web hosting][link_abstract]. Whatever the reason, I want to keep my podcast queue archived. _(Maybe I'm just finding excuses for upgrading my ZFS pool - who can say?)_ There are other solutions to this, but honestly, I was looking for a fun project and this seemed perfect.
 
-Enter podqueue: a simple solution to download your entire subscription list to disk, with some nice features:
+Enter podqueue: an only briefly eponymous simple solution to download your entire subscription list to disk, with some nice features:
 
 * **Super simple configuration** - all you need is an input (your subscription list) and an output (directory).
 * Archive the **show notes** in simple JSON and **cover art** along with all the audio files.
@@ -57,8 +57,6 @@ Currently, podqueue is available in two places:
 * https://github.com/tquin/podqueue
 * https://pypi.org/project/podqueue
 
-But I plan on releasing a docker container or an AUR package to simplify the process a little bit.
-
 Installation can be done with Python's pip:
 
 ```
@@ -72,6 +70,17 @@ Or you can just clone the git repo directly and run it that way:
 git clone https://github.com/tquin/podqueue
 cd podqueue/
 python3 src/main.py --help
+```
+
+Alternatively, you can use Docker to containerise `podqueue`. This will use a docker volume to write the output files onto your host file system, so just specify that as `<YOUR_OUTPUT_DIRECTORY>` in the below commands.
+
+```
+git clone https://github.com/tquin/podqueue
+cd podqueue/
+nano example.opml # Replace this example with your subscription list
+nano src/config.ini # Edit the config file with any changes you want
+docker build --tag podqueue .
+docker run -it -v <YOUR_OUTPUT_DIRECTORY>:/tmp/podqueue-output podqueue
 ```
 
 ---
