@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tyler Quinlivan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tylerquinlivan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>arnotts</title>
       <link>https://www.tylerquinlivan.com/tags/arnotts/</link>
-      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.tylerquinlivan.com/tags/arnotts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>half coated</title>
+      <link>https://www.tylerquinlivan.com/tags/half-coated/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/tags/half-coated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://www.tylerquinlivan.com/tags/review/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tiny teddy</title>
+      <link>https://www.tylerquinlivan.com/tags/tiny-teddy/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/tags/tiny-teddy/</guid>
       <description></description>
     </item>
     
@@ -44,15 +71,6 @@
       <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.tylerquinlivan.com/tags/monte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>review</title>
-      <link>https://www.tylerquinlivan.com/tags/review/</link>
-      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.tylerquinlivan.com/tags/review/</guid>
       <description></description>
     </item>
     
@@ -89,6 +107,15 @@
       <pubDate>Tue, 11 Jan 2022 09:05:00 +0000</pubDate>
       
       <guid>https://www.tylerquinlivan.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>https://www.tylerquinlivan.com/tags/podcast/</link>
+      <pubDate>Tue, 11 Jan 2022 09:05:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/tags/podcast/</guid>
       <description></description>
     </item>
     

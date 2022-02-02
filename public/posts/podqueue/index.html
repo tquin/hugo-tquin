@@ -87,7 +87,7 @@ if (!doNotTrack) {
 <br/>
 <p><code>podqueue</code> is a simple Python script to archive your favourite podcasts.</p>
 <p>Have you ever wanted to go back to listen to a great old episode, and it&rsquo;s disappeared from the internet? Some podcasts only keep a <a href="https://answermethispodcast.com/">few recent episodes</a> in their feeds, or maybe the creator abandoned their project and <a href="https://www.instagram.com/abstractnonsenseftp/">no one paid for the web hosting</a>. Whatever the reason, I want to keep my podcast queue archived. <em>(Maybe I&rsquo;m just finding excuses for upgrading my ZFS pool - who can say?)</em> There are other solutions to this, but honestly, I was looking for a fun project and this seemed perfect.</p>
-<p>Enter podqueue: a simple solution to download your entire subscription list to disk, with some nice features:</p>
+<p>Enter podqueue: an only briefly eponymous simple solution to download your entire subscription list to disk, with some nice features:</p>
 <ul>
 <li><strong>Super simple configuration</strong> - all you need is an input (your subscription list) and an output (directory).</li>
 <li>Archive the <strong>show notes</strong> in simple JSON and <strong>cover art</strong> along with all the audio files.</li>
@@ -122,7 +122,6 @@ if (!doNotTrack) {
 <li><a href="https://github.com/tquin/podqueue">https://github.com/tquin/podqueue</a></li>
 <li><a href="https://pypi.org/project/podqueue">https://pypi.org/project/podqueue</a></li>
 </ul>
-<p>But I plan on releasing a docker container or an AUR package to simplify the process a little bit.</p>
 <p>Installation can be done with Python&rsquo;s pip:</p>
 <pre><code>python3 -m pip install --upgrade podqueue
 python3 -m podqueue --help
@@ -130,6 +129,13 @@ python3 -m podqueue --help
 <pre><code>git clone https://github.com/tquin/podqueue
 cd podqueue/
 python3 src/main.py --help
+</code></pre><p>Alternatively, you can use Docker to containerise <code>podqueue</code>. This will use a docker volume to write the output files onto your host file system, so just specify that as <code>&lt;YOUR_OUTPUT_DIRECTORY&gt;</code> in the below commands.</p>
+<pre><code>git clone https://github.com/tquin/podqueue
+cd podqueue/
+nano example.opml # Replace this example with your subscription list
+nano src/config.ini # Edit the config file with any changes you want
+docker build --tag podqueue .
+docker run -it -v &lt;YOUR_OUTPUT_DIRECTORY&gt;:/tmp/podqueue-output podqueue
 </code></pre><hr>
 <h2 id="is-my-podcast-app-supported">Is my podcast app supported?</h2>
 <p><em>&hellip; Maybe.</em> Most third-party, indie-developed apps support the OPML open standard, which is how you export your subscription list for podqueue to read. Apple and Google Podcasts both don&rsquo;t have an official method, but there are some open source tools that <em>might</em> be able to help you. Spotify and Stitcher, though, because they use proprietary systems and not open standards, both don&rsquo;t offer an export to OPML - you&rsquo;ll need to copy your podcasts into an app that does and export that way.</p>
