@@ -25,6 +25,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Venetian](/arnotts/venetian)
 1. [TeeVee Snacks, Krispy Kreme Original Glazed](/arnotts/tee_vee_original_glazed)
 1. [Tic Toc](/arnotts/tic_toc)
+1. [Tiny Teddy, Half-Coated Chocolate](/arnotts/tiny_teddy_half_coated)
 1. [Chocolate Monte](/arnotts/chocolate_monte)
 1. [TeeVee Snacks, Krispy Kreme Kookies & Kreme](/arnotts/tee_vee_kookies_kreme)
 1. [Gaiety](/arnotts/gaiety)
