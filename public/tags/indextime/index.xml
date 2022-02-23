@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>splunk on Tyler Quinlivan</title>
-    <link>https://www.tylerquinlivan.com/tags/splunk/</link>
-    <description>Recent content in splunk on Tyler Quinlivan</description>
+    <title>indextime on Tyler Quinlivan</title>
+    <link>https://www.tylerquinlivan.com/tags/indextime/</link>
+    <description>Recent content in indextime on Tyler Quinlivan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.tylerquinlivan.com/tags/splunk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.tylerquinlivan.com/tags/indextime/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.tylerquinlivan.com/posts/trouble_with_time/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ve lovingly crafted a new, bespoke Splunk search. How do you schedule it?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Exploring Splunk&#39;s v8 New PREFIX</title>
-      <link>https://www.tylerquinlivan.com/posts/exploring_splunk_prefix/</link>
-      <pubDate>Fri, 25 Jun 2021 22:08:00 +1000</pubDate>
-      
-      <guid>https://www.tylerquinlivan.com/posts/exploring_splunk_prefix/</guid>
-      <description>&lt;p&gt;Starting with Splunk 8, the powerful new PREFIX ability has been added, which is a game-changer for speeding up your searches.&lt;/p&gt;</description>
     </item>
     
   </channel>
