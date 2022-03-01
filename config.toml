@@ -16,16 +16,12 @@ googleAnalytics = "G-ND1DBED3GK"
   # Reference any custom CSS I make in the static/ dir
   custom_css = ["till_custom_style.css"]
 
-  #[[params.navlinks]]
-  #name = "/posts/"
-  #url = "posts/"
-
   [[params.navlinks]]
-  name = "/posts/"
+  name = "/posts"
   url = "posts/"
 
   [[params.navlinks]]
-  name = "/arnotts_biscuits/"
+  name = "/arnotts_biscuits"
   url = "arnotts/"
 
   [[params.navlinks]]
