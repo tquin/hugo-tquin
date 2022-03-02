@@ -18,6 +18,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Caramel Crowns](/arnotts/caramel_crowns)
 1. [TeeVee Snacks, Krispy Kreme Caramel Delight](/arnotts/tee_vee_caramel_delight)
 1. [Royals, Milk Chocolate](/arnotts/royals_milk)
+1. [Wagon Wheel](/arnotts/wagon_wheel)
 1. [Custard Cream](/arnotts/custard_cream)
 1. [Nice](/arnotts/nice)
 1. [Chocolate Teddy Bear](/arnotts/choc_teddy_bear)
