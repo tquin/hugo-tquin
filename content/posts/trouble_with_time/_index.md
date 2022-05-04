@@ -66,7 +66,7 @@ There's a few other cool uses for `_indextime` too. For example, you can easily 
 
 ```
 | rename _indextime as indextime, _time as time
-| eval diff_mins = abs(indextime - time) / 60
+| eval diff_mins = round((indextime - time) / 60, 2)
 | table time, indextime, diff_mins
 ```
 
