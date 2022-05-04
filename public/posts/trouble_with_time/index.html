@@ -141,7 +141,7 @@ if (!doNotTrack) {
 <hr>
 <p>There&rsquo;s a few other cool uses for <code>_indextime</code> too. For example, you can easily compare the two integers to assess your log ingestion delay, and even average this to get a good feel for what&rsquo;s normal in your indexes:</p>
 <pre><code>| rename _indextime as indextime, _time as time
-| eval diff_mins = abs(indextime - time) / 60
+| eval diff_mins = round((indextime - time) / 60, 2)
 | table time, indextime, diff_mins
 </code></pre><p>Hopefully this has been useful in showing where you can add some simple reliability and assurance to improve your spelunking.</p>
 
