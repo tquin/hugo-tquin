@@ -6,10 +6,19 @@
     <description>Recent content in choc chip on Tyler Quinlivan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tylerquinlivan.com/tags/choc-chip/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arno Shortbread</title>
+      <link>https://www.tylerquinlivan.com/arnotts/arno_shortbread/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tylerquinlivan.com/arnotts/arno_shortbread/</guid>
+      <description>&lt;p&gt;The little-known sibling of the Scotch Finger rock-star. How does it stack up?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Premier Chocolate Chip Cookies</title>
