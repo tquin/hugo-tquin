@@ -23,6 +23,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
+      - name: Checkout code
+        uses: actions/checkout@v1
+        with:
+          ref: ${{ github.sha }}
+
       # Runs a set of commands using the runners shell
       - name: Verify that the index file has been edited in this pull req compared to the base
-        run: git diff --name-only ${{ github.sha }} ${{ github.event.pull_request.base.sha }} | grep content/arnotts/_index.md
+        run: git diff --name-only ${{ github.event.pull_request.head.sha }} ${{ github.event.pull_request.base.sha }} | grep content/arnotts/_index.md
