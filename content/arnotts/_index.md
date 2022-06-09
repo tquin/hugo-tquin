@@ -4,6 +4,8 @@ date: 2021-06-14T15:26:36+10:00
 draft: false
 tags:
   - arnotts
+  - ranking
+  - index
 ---
 
 Without further ado, I present the 100% correct, objective, inarguable list of Arnott's biscuits, ranked so far:
