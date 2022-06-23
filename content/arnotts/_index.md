@@ -35,6 +35,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Tiny Teddy, Half-Coated Chocolate](/arnotts/tiny_teddy_half_coated)
 1. [Chocolate Monte](/arnotts/chocolate_monte)
 1. [TeeVee Snacks, Krispy Kreme Kookies & Kreme](/arnotts/tee_vee_kookies_kreme)
+1. [Malt-O-Milk](/arnotts/malt_o_milk)
 1. [Gaiety](/arnotts/gaiety)
 1. [Scotch Finger, Choc Chip](/arnotts/scotch_finger_choc_chip)
 1. [TeeVee Snacks, Krispy Kreme Choc Iced](/arnotts/tee_vee_choc_iced)
