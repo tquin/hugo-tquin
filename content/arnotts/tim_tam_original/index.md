@@ -14,7 +14,7 @@ Ah, the venerable Tim-Tam. On some level, I'm astounded I've made it this far wi
 
 {{< figure src="/arnotts/tim_tam_original/tim_tam.png" alt="img_tim_tam" >}}
 
-But that should not constitute a lack of enthusiasm on my part. In some ways, this is closer to a civic duty: the original Tim-Tam (and it's many, many derivatives) are a national pride on the same podium as Vegemite and Fair Bread.
+But that should not constitute a lack of enthusiasm on my part. In some ways, this is closer to a civic duty: the original Tim-Tam (and it's many, many derivatives) are a national pride on the same podium as Vegemite and Fairy Bread.
 
 It's no surprise that this status has been earned for a good reason. As a biscuit, the Tim-Tam is great. As a platform, a format, it's equally notable - the form ranges from Mango to espresso.
 
