@@ -23,7 +23,7 @@ Regardless, I suspect that the Mint Slice may be a controversial pick no matter 
 >
 > - [Arnott's][link-mint-slice]
 
-Given that disclaimer, I do this this is an very enjoyable biscuit. If anything, the chocolate may be a little rich, perhaps due to combining the coating with the cocoa-heavy biscuit, but it is an excellent treat nonetheless.
+Given that disclaimer, I do think this is an very enjoyable biscuit. If anything, the chocolate may be a little rich, perhaps due to combining the coating with the cocoa-heavy biscuit, but it is an excellent treat nonetheless.
 
 
 
