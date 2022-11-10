@@ -21,7 +21,7 @@ But first, let's go into a little more detail on the exact problem I'm trying to
 
 A large chunk of this website is not the few-and-far-between technical posts you're here reading, but instead is a tribute to core Australiana: biscuit reviews. As part of that, I maintain [the ranking list](/arnotts/) with every single bickie included -- at least in theory. The trouble is, I can be forgetful, and push new reviews live but forget to rank it first. And that sounds like a thing we can automate!
 
-{{< figure src="/posts/github_actions_index/action_example.png" alt="img_action_example" >}} <!-- class="smaller_img" -->
+{{< figure src="/posts/github_actions_index/action_example_2.png" alt="img_action_example" >}} <!-- class="smaller_img" -->
 
 ## Lights, Camera: Trigger the Action
 
