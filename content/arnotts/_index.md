@@ -1,6 +1,6 @@
 ---
 title: "Arnott's Biscuits - The Definitive Ranking"
-date: 2021-06-14T15:26:36+10:00
+date: 2021-06-14
 draft: false
 tags:
   - arnotts
@@ -22,7 +22,6 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Tim Tam, Butterscotch & Cream](/arnotts/tim_tam_butterscotch)
 1. [TeeVee Snacks, Krispy Kreme Caramel Delight](/arnotts/tee_vee_caramel_delight)
 1. [Wagon Wheel](/arnotts/wagon_wheel)
-<!-- Scotch Finger? -->
 1. [Royals, Milk Chocolate](/arnotts/royals_milk)
 1. [Premier Chocolate Chip Cookies](/arnotts/premier_choc_chip_cookies)
 1. [TeeVee Snacks, Krispy Kreme Original Glazed](/arnotts/tee_vee_original_glazed)
