@@ -14,6 +14,8 @@ Maybe you've used Splunk day-to-day before, but have you ever really _abused it?
 
 <!--more-->
 
+{{< figure src="/posts/splunk_game_engine/twod.gif" alt="gif_2D" >}}
+
 ---
 
 # The Joy of Subverting Design
