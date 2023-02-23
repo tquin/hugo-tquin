@@ -1,0 +1,168 @@
+<form theme="dark" version="1.1">
+  <label>Whack-A-Mole (2D)</label>
+
+  <fieldset submitButton="false">
+    <input token="game_speed" type="text">
+      <label>game_speed (int seconds)</label>
+      <default>2</default>
+      <initialValue>2</initialValue>
+    </input>
+  </fieldset>
+
+  <row>
+    <panel>
+      <table depends="$hide_start$">
+        <title>GAME_START</title>
+        <search>
+          <query>
+            | makeresults count=1 
+            | fields - * _* 
+            | eval COLUMN_COUNT = "10" 
+            | eval x = mvrange(0, COLUMN_COUNT) 
+            | eval x = mvmap(x, "col_" . x) 
+            | chart sum(eval(0)) as starting_value over COLUMN_COUNT by x 
+            | eval ROW_COUNT = "5" 
+            | eval row = mvrange(0, ROW_COUNT) 
+            | mvexpand row 
+            | eval direction = "right" 
+            | eval col_0 = if(row == "0", "100", "0") 
+            | eval score = "0" 
+            | eval mode = "Running" 
+            | outputlookup game_state.csv
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <done>
+            <set token="show_loop">true</set>
+            <set token="user_input">left</set>
+          </done>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <table depends="$show_loop$">
+        <title>GAME_LOOP</title>
+        <search>
+          <query>
+            | inputlookup game_state.csv 
+            | where mode != "Game Over"
+            | require 
+                
+            | eval next_cell_row =  (random() % ROW_COUNT)
+            | eval next_cell_col = (random() % COLUMN_COUNT)
+            | eventstats first(next_cell_row) as next_cell_row, first(next_cell_col) as next_cell_col
+
+            | foreach col_*
+                [| eval &lt;&lt;FIELD&gt;&gt; = if(row == next_cell_row AND replace("&lt;&lt;FIELD&gt;&gt;", "^.*(\d+)$", "\1") == next_cell_col, "100", "0")]
+
+            | outputlookup game_state.csv 
+            | table col_*
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <done>
+            <unset token="hide_start"/>
+            <set token="user_input">blank</set>
+          </done>
+        </search>
+        <option name="dataOverlayMode">highlow</option>
+        <option name="refresh.auto.interval">$game_speed$</option>
+        <drilldown>
+            <set token="user_input">$click.value2$</set>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <table depends="$game_over$">
+        <title>GAME_OVER</title>
+        <search>
+          <query>
+            | inputlookup game_state.csv
+            | table col_*
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="dataOverlayMode">highlow</option>
+        <option name="refresh.auto.interval">1</option>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <single>
+        <title>Your Score</title>
+        <search>
+          <query>
+            | makeresults
+            | eval x = "$score$"
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.auto.interval">1</option>
+      </single>
+    </panel>
+    <panel>
+      <single>
+        <title>Game Mode</title>
+        <search>
+          <query>
+            | makeresults
+            | eval mode = $mode|s$
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <progress>
+          <condition match="'result.mode'==&quot;Game Over&quot;">
+              <set token="game_over">true</set>
+              <unset token="show_loop"/>
+          </condition>
+        </progress>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.auto.interval">1</option>
+      </single>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <table depends="$debug_always_hide$">
+        <title>GAME_LOGIC</title>
+        <search>
+          <query>
+            | inputlookup game_state.csv
+            | eval user_input = $user_input|s$
+
+            | eval mode = if(user_input == "0", "Game Over", mode)
+            | eval score = if(user_input == "100" AND mode != "Game Over", score + 0.5, score)
+
+            | outputlookup game_state.csv
+            | fields - col_*
+          </query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <done>
+            <unset token="hide_start"/>
+            <set token="mode">$result.mode$</set>
+            <set token="score">$result.score$</set>
+          </done>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.auto.interval">1</option>
+      </table>
+    </panel>
+  </row>
+
+</form>
