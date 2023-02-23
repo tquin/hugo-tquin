@@ -16,7 +16,7 @@ Maybe you've used Splunk day-to-day before, but have you ever really _abused it?
 
 ---
 
-## The Joy of Subverting Design
+# The Joy of Subverting Design
 
 Have you ever seen those conference presentations on YouTube about how [PowerPoint is Turing Complete][ppt_turing] (as is [Magic the Gathering][magic_turing]), you can [encode images in a spreadsheet][matt_parker_spreadsheet], or investigated [esoteric programming languages][esoteric_languages]? Watching a person dive so deep down a rabbit hole that they utterly mutate how a thing is _supposed to be used_ brings me a strange satisfaction. As the saying goes, you've got to know when to commit to the bit, and it's one of my favourite forms of niche comedy; doing a thing for no other reason than to prove it can be done, with quite literally no practical purpose behind it.
 
