@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Tyler Quinlivan"
 theme = "hugo-theme-console"
 sectionPagesMenu = "main"
-googleAnalytics = "G-ND1DBED3GK"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
