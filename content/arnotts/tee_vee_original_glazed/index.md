@@ -18,7 +18,7 @@ The fact they market this range as 'Arnott's x Kirspy Kreme' like it's a hypebea
 
 And while I'm on it, calling them "dough-scuits" in the press materials from back in May is somehow even worse. Arnott's, I love you, but please stop. You're killing me here.
 
-But let's talk about the actual ~~dough-scuit~~ biscuit. To sum it up, it's basically a [Tic Toc][link-tic-toc] with a hole in the middle, sprinkled with a touch of cinnamon. There's nothing fancy like the [Strawberry Sprinkles or Kookies & Kreme versions][link-promo] with their sprikes, but this bickie doesn't need it.
+But let's talk about the actual ~~dough-scuit~~ biscuit. To sum it up, it's basically a [Tic Toc][link-tic-toc] with a hole in the middle, sprinkled with a touch of cinnamon. There's nothing fancy like the [Strawberry Sprinkles or Kookies & Kreme versions][link-promo] with their sprinkles, but this bickie doesn't need it.
 
 > Arnott's teeVee Snacks Original Glazed was inspired by Krispy Kreme Doughnuts.
 >

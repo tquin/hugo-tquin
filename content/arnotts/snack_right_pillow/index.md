@@ -22,7 +22,7 @@ And what is "healthy", anyway? This _real fruit!_ pillow --
 
 &nbsp;&nbsp;&nbsp;&nbsp;_(sidebar: I **love** the name Pillow. It's just so delightful!)_
 
--- has more sugar in it per gram than the [Raspberry Shortcake, my beloved][link_raspberry_shortcake] - coming in at 47g/100g compared to the Shortcake's 31.6g/100g. Yes, perhaps some of that 'natural fructose' rather than artificial, but given that added sugar is listed as the third-most common ingredient _separate_ from the fruits, I'm inclinded to believe that `for kids = drenched in sugar` in product designers' minds.
+-- has more sugar in it per gram than the [Raspberry Shortcake, my beloved][link_raspberry_shortcake] - coming in at 47g/100g compared to the Shortcake's 31.6g/100g. Yes, perhaps some of that is 'natural fructose' rather than artificial, but given that added sugar is listed as the third-most common ingredient _separate_ from the fruits, I'm inclinded to believe that `for kids = drenched in sugar` in product designers' minds.
 
 {{< figure src="/arnotts/snack_right_pillow/my_beloved.png" alt="img_my_beloved" class="smaller_img" >}}
 
