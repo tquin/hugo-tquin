@@ -24,7 +24,7 @@ So, this month we're diving back into donut-biscuit territory, and you know what
 >
 > - [Arnott's][link_tee_vee_lemon_glaze] _(Not on their website, annoyingly)_
 
-I wrote in the last-place Lemon Crisp review that I like lemon deserts, but that bickie's Achille's heel was the bizarre and controversial choice to include _salt._ The TeeVee Snacks, instead, do not suffer the same foolhardy conviction, and keep things sweet and delicious. I enjoy the sprinkles common across most of these Krispy Kreme tie-ins, and the lemon flavour is delightful, not overbearing or under-utilised. This is a good biscuit.
+I wrote in the last-place Lemon Crisp review that I like lemon deserts, but that bickie's Achilles' heel was the bizarre and controversial choice to include _salt._ The TeeVee Snacks, instead, do not suffer the same foolhardy conviction, and keep things sweet and delicious. I enjoy the sprinkles common across most of these Krispy Kreme tie-ins, and the lemon flavour is delightful, not overbearing or under-utilised. This is a good biscuit.
 
 I do wonder, though, if this marks a change in new product releases by Arnott's. For a long time, the Tim-Tam has been used as a testing bed for ridiculous flavour combinations, but recently there have been strange TeeVee Snack experiments, like these Krispy Kreme donuts and the Tic-Tac-Toe-looking set I'm yet to try. It's a curious development, if it's true.
 
