@@ -23,7 +23,7 @@ I was considering that mainly in the context of the coveted [Assorted Creams][li
 
 And, sidebar, but I can't believe that description. I'm willing to look past the biscuit appearance, but if you market this as a "twist and dunk", you're really asking for an Oreo fight, which you're sadly outmatched in.
 
-Anyway, back to the bickie. On paper, a vanilla cream and chocolate biscuit should be a knock-out. Sadly, it falls flat. Don't get me wrong, it's _fine_,_ but it isn't _great._ In the Assorted Creams, it's not your first pick (it's not your last pick either, but I'll save clowning on the Orange Slice 🤢 for another day.)
+Anyway, back to the bickie. On paper, a vanilla cream and chocolate biscuit should be a knock-out. Sadly, it falls flat. Don't get me wrong, it's _fine_, but it isn't _great._ In the Assorted Creams, it's not your first pick (it's not your last pick either, but I'll save clowning on the Orange Slice 🤢 for another day.)
 
 That's all it comes down to for me. I don't dislike them, but I wouldn't buy a packet of them on their own. The Delta Cream simply lets me down. I'm not mad, I'm just disappointed.
 
