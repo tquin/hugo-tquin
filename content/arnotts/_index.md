@@ -17,6 +17,7 @@ Without further ado, I present the 100% correct, objective, inarguable list of A
 1. [Monte Carlo](/arnotts/monte_carlo)
 1. [Mint Slice](/arnotts/mint_slice)
 1. [Obsession, Mint Chocolate](/arnotts/obsession_mint_choc)
+1. [Tim Tam, Double Coat](/arnotts/tim_tam_double_coat)
 1. [Tim Tam, Original](/arnotts/tim_tam_original)
 1. [Obsession, Salted Caramel](/arnotts/obsession_salted_caramel)
 1. [Caramel Crowns](/arnotts/caramel_crowns)
