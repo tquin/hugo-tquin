@@ -34,7 +34,7 @@ The Gaiety reminds me deeply of the bread or frozen pizza analogy, because it is
 
 I had never given a second thought to the idea that this might be improved upon. But the little-known Gaiety does precisely that - switch the usual, uh, _paste_ for an Arnott's-quality cream, make it a bit thicker, and cover it in beautiful chocolate. In every way but one, this bickie is a clear winner - and that's the sting of sextupling the price.
 
-Overall, the Gaiety is a good, but unremarkable biscuit. As much as I have enjoyed it, I do wish I had never discovered it, because as they say - cheap bread used to make me happy.
+Overall, the Gaiety is a good, but unremarkable biscuit. As much as I have enjoyed it, I do wish I had never discovered it, because as they say - cheaper bread used to make me happy.
 
 
 
