@@ -28,7 +28,7 @@ These two [blog][link_how_it_works] [posts][link_nat_traversal] from the company
 
 ## SSH from a World Away
 
-The first use I had for this sort of tech was SSH. Often, I'm not at home, but I want to quickly restart something running on my home server. 
+The first use I had for this sort of tech was SSH. Often, I'm not at home, but I want to quickly restart something running on my home server.
 
 The most obvious answer to this would be "open port 22 to the internet!", which as soon as you try, will make you realise [quite how bad an idea][link_honeypot] that is. The second thought would be some level of indirection in this process, like first authenticating to a reverse proxy before you can hit the actual SSH server. But the core problem still exists - anyone can spam whatever endpoint you have exposed until they crack it, saturate your bandwidth, or get your innocent VPS locked down by your hosting provider for its own good.
 
@@ -43,7 +43,7 @@ The direct connections between nodes enabled by Tailscale mean all these issues 
 
 ## Memorable DNS
 
-While the above section does functionally fulfill my requirement, it's not the most user-friendly. I'm not going to remember the additonal IP given to all of my machines in the tailnet, and luckily I don't have to. Tailscale also includes ✨ MagicDNS ✨ _(I swear that's their name for it, not mine)_ for facilitating connectivity. 
+While the above section does functionally fulfill my requirement, it's not the most user-friendly. I'm not going to remember the additional IP given to all of my machines in the tailnet, and luckily I don't have to. Tailscale also includes ✨ MagicDNS ✨ _(I swear that's their name for it, not mine)_ for facilitating connectivity.
 
 Every node registers its hostname under your unqiue tailnet's DNS (like `my-host.isnt-this-fun.ts.net`), and in most cases, you don't even need to specify the full FQDN. This means that I can literally just type `ssh bombe`, and it works. No username needed since it's the same on both ends, no password prompt, no `-i keyfile` argument to remember. It could not be simplier, but it's still just as secure using Wireguard public/private keys under the hood. You can even do this outside a CLI, like in the browser - navigate to `bombe:80` in Firefox and I could hit a locally hosted webpage from anywhere on Earth.
 
@@ -65,7 +65,7 @@ New motherboard, new MAC address baby! My home router, seeing this as a new devi
 
 Enter the solution: subnet routing. I can reach the home server itself through Tailscale, and it obviously can see my home LAN. Subnet Routing lets me set up that Tailscale client to be **a VPN server!** All the server has to do is advertise "hey, I can see `192.168.1.1/24` subnet from here", and my laptop can forward packets to the server through Tailscale so the server can forward them along to the router, just one more hop in the chain of connections.
 
-Of course, like everything else, it works via ✨ magic ✨ - just typing `http://192.168.1.1` connects me straight through to the router's web UI. This same system could let you access printers or IoT devices that can't run the Tailscale client natively, just by setting up something else to bridge the two. 
+Of course, like everything else, it works via ✨ magic ✨ - just typing `http://192.168.1.1` connects me straight through to the router's web UI. This same system could let you access printers or IoT devices that can't run the Tailscale client natively, just by setting up something else to bridge the two.
 
 ---
 
