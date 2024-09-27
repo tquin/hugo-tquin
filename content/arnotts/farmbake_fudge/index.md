@@ -1,6 +1,6 @@
 ---
 title: "Farmbake, Chocolate Chip Fudge"
-date: 2024-06-19
+date: 2024-09-27
 draft: false
 tags:
   - arnotts
