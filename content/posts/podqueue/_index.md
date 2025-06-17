@@ -1,5 +1,5 @@
 ---
-title: "Podqueue - a simple podcast archiver, written in Python"
+title: "Podqueue: a Simple Podcast Archiver, Written in Python"
 date: 2022-01-11T09:05:00
 draft: false
 tags:
