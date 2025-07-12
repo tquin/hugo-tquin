@@ -70,7 +70,7 @@ Now we have a public URL we can hit with a `gym_id` and get clean JSON back. All
 
 {{< figure src="/posts/trmnl_bouldering/rendered_chart.png" alt="img_rendered_chart" attr="_looks quiet, good time to go!_" >}}
 
-The code for the Rust Worker and the HTML templates is available [here][link_trmnl_bouldering_github] if you want to peruse or use on your own TRMNL.
+The code for the Rust Worker and the HTML templates is available [here][link_trmnl_bouldering_github] if you want to peruse, or it's available as a Community Recipe for installation [on your TRMNL here][link_plugin].
 
 [link_trmnl]: https://usetrmnl.com/
 [link_rockgympro]: https://www.rockgympro.com/
@@ -78,3 +78,4 @@ The code for the Rust Worker and the HTML templates is available [here][link_trm
 [link_go_scraper]: https://github.com/eiri/climber-count/tree/main
 [link_json5]: https://docs.rs/json5/latest/json5/
 [link_trmnl_bouldering_github]: https://github.com/tquin/trmnl-bouldering
+[link_plugin]: https://usetrmnl.com/recipes/91950
