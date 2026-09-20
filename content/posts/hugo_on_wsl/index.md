@@ -37,7 +37,9 @@ Since the Linux box running in WSL is completely independent of your Windows ins
 
 The solution to this is a pretty simple bash function that uses Hugo's `bind` CLI parameter. And, well, here it is:
 
-{{< gist tquin 98eaa40004df298a5ee5a26e8f5cb300 >}}
+{{< raw_html >}}
+<script src="https://gist.github.com/tquin/98eaa40004df298a5ee5a26e8f5cb300.js"></script>
+{{< /raw_html >}}
 
 This is just finding your WSL environment's LAN IP _(it's likely to change with every reboot)_ and tells Hugo to open the dev webserver up there, instead of the default `127.0.0.1`. The other options here are pretty minor - show draft or future posts, clean up the cache, blah blah blah.
 

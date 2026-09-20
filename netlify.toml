@@ -4,4 +4,4 @@
     X-Clacks-Overhead = "GNU Terry Pratchett"
 
 [build.environment]
-  HUGO_VERSION = "0.142.0"
+  HUGO_VERSION = "0.162.0"
