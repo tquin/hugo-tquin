@@ -1,18 +1,18 @@
 ---
-title: "Butternut Snap Cookie"
+title: "Butternut Snap"
 date: 2021-11-25T21:58:00+10:00
 draft: false
 tags:
   - arnotts
   - review
-  - butternut_snap_cookie
+  - butternut_snap
 ---
 
 Nothing can top the crunch factor on this bad boy.
 
 <!--more-->
 
-{{< figure src="/arnotts/butternut_snap_cookie/butternut_snap_cookie.png" alt="img_butternut_snap_cookie" >}}
+{{< figure src="/arnotts/butternut_snap/butternut_snap.png" alt="img_butternut_snap" >}}
 
 In fact, I would _almost_ argue that this biscuit can lean into being _too crunchy_ sometimes. Frankly, it's a little too much for me, but that is not a nock against the young Butternut - it's raison d'être is instead as the humble **cuppa companion.**
 
@@ -20,7 +20,7 @@ In fact, I would _almost_ argue that this biscuit can lean into being _too crunc
 
 > Arnott's Butternut Snap is an Arnott's icon, made with delcious oats and baked for the perfect crunch!
 >
-> [Arnott's][link_butternut_snap_cookie]
+> [Arnott's][link_butternut_snap]
 
 ---
 
@@ -33,5 +33,5 @@ Regardless, naming issues aside, let me set the scene: it's a Sunday morning. Yo
 
 
 
-[link_butternut_snap_cookie]: https://www.arnotts.com/products/plain-biscuits/simple-pleasures/butternut-snap-original
+[link_butternut_snap]: https://www.arnotts.com/products/plain-biscuits/simple-pleasures/butternut-snap-original
 [link_anzac]: https://www.awm.gov.au/articles/encyclopedia/anzac/biscuit
